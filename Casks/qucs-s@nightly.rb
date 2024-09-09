@@ -1,6 +1,4 @@
-cask "qucs-s@nightly" do
-    arch arm: "arm64", intel: "x86_64"
-  
+cask "qucs-s@nightly" do  
     version "24.3.99"
     sha256 :no_check
   
@@ -11,7 +9,11 @@ cask "qucs-s@nightly" do
     homepage "https://ra3xdh.github.io/"
   
   
+    conflicts_with cask: [
+      "qucs-s",
+    ]
     depends_on formula: "ngspice"
+    depends_on macos: ">= :big_sur"
   
     app "qucs-s.app", target: "Qucs-S.app"
   
