@@ -1,6 +1,6 @@
 cask "qucs-s" do  
-    version "24.3.1"
-    sha256 "b1b3b799cd6a0c5205dd5a3ff284a5d4d86444fc7febad044e192b7c8bab9cb2"
+    version "24.3.2"
+    sha256 "dbb96d76ed680d1692c4ed3c90c8563dbaa3940f4900b18b0925274b496d903b"
     
     url "https://github.com/ra3xdh/qucs_s/releases/download/#{version}/Qucs-S-#{version}-macOS.dmg",
         verified: "github.com/ra3xdh/qucs_s/"
