@@ -6,10 +6,10 @@ This repository will contain files for Qucs-S homebrew package
 
 Run below command to install latest stable qucs-s
 ```bash
-brew install --cask ra3xdh/qucs-s/qucs-s
+brew install --cask ra3xdh/qucs-s/qucs-s --no-quarantine
 ```
 
 Run below command to install latest nightly qucs-s
 ```bash
-brew install --cask ra3xdh/qucs-s/qucs-s@nightly
+brew install --cask ra3xdh/qucs-s/qucs-s@nightly --no-quarantine
 ```
