@@ -1,5 +1,5 @@
 cask "qucs-s@nightly" do  
-    version "24.3.99"
+    version "24.4.99"
     sha256 :no_check
   
     url "https://github.com/ra3xdh/qucs_s/releases/download/continuous_build/Qucs-S-#{version}-macOS.dmg",
@@ -13,7 +13,7 @@ cask "qucs-s@nightly" do
       "qucs-s",
     ]
     depends_on formula: "ngspice"
-    depends_on macos: ">= :big_sur"
+    depends_on macos: ">= :monterey"
   
     app "qucs-s.app", target: "Qucs-S.app"
   
