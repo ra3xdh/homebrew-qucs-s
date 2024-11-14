@@ -1,6 +1,6 @@
 cask "qucs-s" do  
-    version "24.4.0"
-    sha256 "7a573cb525c51264a696817a1b87f5bb29f381f4dc5f8a1f57cfe77bded342f3"
+    version "24.4.1"
+    sha256 "309ea5c62c334b0f0ea63453c1707468b158df1ad495f57f9fcf686014aba7ed"
     
     url "https://github.com/ra3xdh/qucs_s/releases/download/#{version}/Qucs-S-#{version}-macOS.dmg",
         verified: "github.com/ra3xdh/qucs_s/"
@@ -17,7 +17,7 @@ cask "qucs-s" do
       "qucs-s@nightly",
     ]
     depends_on formula: "ngspice"
-    depends_on macos: ">= :big_sur"
+    depends_on macos: ">= :monterey"
 
     app "qucs-s.app", target: "Qucs-S.app"
   
