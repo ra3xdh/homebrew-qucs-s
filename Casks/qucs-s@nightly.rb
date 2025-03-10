@@ -1,5 +1,5 @@
 cask "qucs-s@nightly" do  
-    version "24.4.99"
+    version "25.1.99"
     sha256 :no_check
   
     url "https://github.com/ra3xdh/qucs_s/releases/download/continuous_build/Qucs-S-#{version}-macOS.dmg",
