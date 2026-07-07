@@ -17,7 +17,7 @@ cask "qucs-s" do
       "qucs-s@nightly",
     ]
     depends_on formula: "ngspice"
-    depends_on macos: ">= :monterey"
+    depends_on macos: :monterey
 
     app "qucs-s.app", target: "Qucs-S.app"
   
